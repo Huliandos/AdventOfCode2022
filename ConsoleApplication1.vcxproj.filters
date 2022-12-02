@@ -21,17 +21,26 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DayOne.cpp">
+    <ClCompile Include="DayTwo\DayTwo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DayOne\DayOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DayOne.h">
+    <ClInclude Include="DayTwo\DayTwo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DayOne\DayOne.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="InputFiles\dayOne_elfCalories.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\DayTwo_RockPaperSicorsInput.txt">
       <Filter>InputFiles</Filter>
     </Text>
   </ItemGroup>

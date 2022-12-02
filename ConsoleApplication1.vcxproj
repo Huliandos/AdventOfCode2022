@@ -140,14 +140,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DayOne.cpp" />
+    <ClCompile Include="DayOne\DayOne.cpp" />
+    <ClCompile Include="DayTwo\DayTwo.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DayOne.h" />
+    <ClInclude Include="DayOne\DayOne.h" />
+    <ClInclude Include="DayTwo\DayTwo.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="InputFiles\dayOne_elfCalories.txt" />
+    <Text Include="InputFiles\DayTwo_RockPaperSicorsInput.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

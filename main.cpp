@@ -1,4 +1,5 @@
 #include "DayOne/DayOne.h"
+#include "DayTwo/DayTwo.h"
 
 #include <iostream>
 
@@ -26,6 +27,11 @@ int main()
             std::cout << "That's a total of " << totalTopThreeCalories << " calories!" << std::endl;
             break;
         }
+        case 2:
+            std::cout << "The score for the strategy guide, while interpreting the second line as the sign the player should choose, is: " << dayTwo::StratGuideScore_SecondColumnSign() << std::endl;
+
+            std::cout << "The score for the strategy guide, while interpreting the second line as how the game should end, is: " << dayTwo::StratGuideScore_SecondColumnRoundPrediction() << std::endl;
+            break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;
             break;
