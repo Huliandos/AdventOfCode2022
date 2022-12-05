@@ -1,11 +1,12 @@
 #include "DayOne/DayOne.h"
 #include "DayTwo/DayTwo.h"
+#include "DayThree/DayThree.h"
 
 #include <iostream>
 
+//Tasks can be found under https://adventofcode.com/
 int main()
 {
-    //ToDo: Let user input the solution of the desired day here
     int day = 0;
     std::cout << "Please enter the day you want to see the solution for (1-24): ";
     std::cin >> day;
@@ -31,6 +32,11 @@ int main()
             std::cout << "The score for the strategy guide, while interpreting the second line as the sign the player should choose, is: " << dayTwo::StratGuideScore_SecondColumnSign() << std::endl;
 
             std::cout << "The score for the strategy guide, while interpreting the second line as how the game should end, is: " << dayTwo::StratGuideScore_SecondColumnRoundPrediction() << std::endl;
+            break;
+        case 3:
+            std::cout << "The combined priority of all items in both compartements of each rucksack is: " << dayThree::GetCombinedRucksackPriority() << std::endl;
+
+            std::cout << "The combined priority of all badges from groups of up to three elves is: " << dayThree::GetCombinedGroupBadgePriority() << std::endl;
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;

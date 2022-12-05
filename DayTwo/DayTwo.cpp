@@ -1,10 +1,11 @@
 #include "DayTwo.h"
 
-#include <iostream>
 #include <fstream>	//std::ifstream
 #include <string>
 
 namespace dayTwo {
+	static std::string inputDataPath = "./InputFiles/DayTwo_RockPaperSicorsInput.txt";
+
 	/// <summary>
 	/// Calculates the total score of the strategy guide, while interpreting the second column as the sign the player has to use
 	/// </summary>
@@ -12,7 +13,7 @@ namespace dayTwo {
 	int StratGuideScore_SecondColumnSign() {
 		//open file
 		//A&X = Rock, B&Y = Paper, C&Z = Scissors
-		std::ifstream strategyGuideTxt("./InputFiles/DayTwo_RockPaperSicorsInput.txt", std::ifstream::in);
+		std::ifstream strategyGuideTxt(inputDataPath, std::ifstream::in);
 
 		int totalPoints = 0;
 		//read out data
@@ -43,8 +44,6 @@ namespace dayTwo {
 				//add the score of the chosen sign to our score
 				//+1 because each sign is worth one point more than in the mapping generated above
 				totalPoints += playerSign + 1;
-
-				//std::cout << (line[0] - 65) << " " << line[2] - 88 << " "  << 3 + (line[0] - 65) << " " << (3 + (line[0] - 65) - (line[2] - 88)) << " " << winner << std::endl;
 			}
 
 			//close file
@@ -61,7 +60,7 @@ namespace dayTwo {
 	int StratGuideScore_SecondColumnRoundPrediction() {
 		//open file
 		//A = Rock, B = Paper, C = Scissors, X lose, Y draw, Z win
-		std::ifstream strategyGuideTxt("./InputFiles/DayTwo_RockPaperSicorsInput.txt", std::ifstream::in);
+		std::ifstream strategyGuideTxt(inputDataPath, std::ifstream::in);
 
 		int totalPoints = 0;
 		//read out data

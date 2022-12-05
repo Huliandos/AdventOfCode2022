@@ -1,6 +1,5 @@
 #include "DayOne.h"
 
-#include <iostream>
 #include <fstream>	//std::ifstream
 #include <string>
 #include <algorithm> //std::sort
