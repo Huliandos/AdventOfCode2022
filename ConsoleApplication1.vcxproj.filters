@@ -30,6 +30,9 @@
     <ClCompile Include="DayThree\DayThree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DayFour\DayFour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DayTwo\DayTwo.h">
@@ -41,6 +44,9 @@
     <ClInclude Include="DayThree\DayThree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DayFour\DayFour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="InputFiles\dayOne_elfCalories.txt">
@@ -50,6 +56,9 @@
       <Filter>InputFiles</Filter>
     </Text>
     <Text Include="InputFiles\DayThree_itemsInRucksack.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\DayFour_pairedCleaningIDs.txt">
       <Filter>InputFiles</Filter>
     </Text>
   </ItemGroup>

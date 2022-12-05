@@ -1,6 +1,7 @@
 #include "DayOne/DayOne.h"
 #include "DayTwo/DayTwo.h"
 #include "DayThree/DayThree.h"
+#include "DayFour/DayFour.h"
 
 #include <iostream>
 
@@ -37,6 +38,11 @@ int main()
             std::cout << "The combined priority of all items in both compartements of each rucksack is: " << dayThree::GetCombinedRucksackPriority() << std::endl;
 
             std::cout << "The combined priority of all badges from groups of up to three elves is: " << dayThree::GetCombinedGroupBadgePriority() << std::endl;
+            break;
+        case 4:
+            std::cout << "The number of elves having cleaning IDs fully contained in their partners IDs is: " << dayFour::GetNumberOfFullyContainedPairs() << std::endl;
+
+            std::cout << "The number of elves having overlapping with their partners cleaning IDs is: " << dayFour::GetNumberOfOverlappingPairs() << std::endl;
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;
