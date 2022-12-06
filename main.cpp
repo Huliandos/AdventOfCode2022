@@ -2,6 +2,7 @@
 #include "DayTwo/DayTwo.h"
 #include "DayThree/DayThree.h"
 #include "DayFour/DayFour.h"
+#include "DayFive/DayFive.h"
 
 #include <iostream>
 
@@ -44,6 +45,21 @@ int main()
 
             std::cout << "The number of elves having overlapping with their partners cleaning IDs is: " << dayFour::GetNumberOfOverlappingPairs() << std::endl;
             break;
+        {
+        case 5:
+            std::cout << "The cargo on top of each of the cargo stacks with the crate mover 9000 are: ";
+            for (char cargo : dayFive::GetTopsOfStacksAfterMoving(true)) {
+                std::cout << cargo << ", ";
+            }
+            std::cout << std::endl;
+
+            std::cout << "The cargo on top of each of the cargo stacks with the crate mover 9001 are: ";
+            for (char cargo : dayFive::GetTopsOfStacksAfterMoving(false)) {
+                std::cout << cargo << ", ";
+            }
+            std::cout << std::endl;
+            break;
+        }
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;
             break;
