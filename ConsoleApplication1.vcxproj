@@ -143,6 +143,7 @@
     <ClCompile Include="DayFive\DayFive.cpp" />
     <ClCompile Include="DayFour\DayFour.cpp" />
     <ClCompile Include="DayOne\DayOne.cpp" />
+    <ClCompile Include="DaySeven\DaySeven.cpp" />
     <ClCompile Include="DaySix\DaySix.cpp" />
     <ClCompile Include="DayThree\DayThree.cpp" />
     <ClCompile Include="DayTwo\DayTwo.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="DayFive\DayFive.h" />
     <ClInclude Include="DayFour\DayFour.h" />
     <ClInclude Include="DayOne\DayOne.h" />
+    <ClInclude Include="DaySeven\DaySeven.h" />
     <ClInclude Include="DaySix\DaySix.h" />
     <ClInclude Include="DayThree\DayThree.h" />
     <ClInclude Include="DayTwo\DayTwo.h" />
@@ -160,6 +162,7 @@
     <Text Include="InputFiles\DayFive_SupplyStacks.txt" />
     <Text Include="InputFiles\DayFour_pairedCleaningIDs.txt" />
     <Text Include="InputFiles\dayOne_elfCalories.txt" />
+    <Text Include="InputFiles\DaySeven_Filesystem.txt" />
     <Text Include="InputFiles\DaySix_CommunicationDatastreamBuffer.txt" />
     <Text Include="InputFiles\DayThree_itemsInRucksack.txt" />
     <Text Include="InputFiles\DayTwo_RockPaperSicorsInput.txt" />
