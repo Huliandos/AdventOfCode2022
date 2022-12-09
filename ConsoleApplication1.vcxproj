@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DayEight\DayEight.cpp" />
     <ClCompile Include="DayFive\DayFive.cpp" />
     <ClCompile Include="DayFour\DayFour.cpp" />
     <ClCompile Include="DayOne\DayOne.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DayEight\DayEight.h" />
     <ClInclude Include="DayFive\DayFive.h" />
     <ClInclude Include="DayFour\DayFour.h" />
     <ClInclude Include="DayOne\DayOne.h" />
@@ -159,6 +161,7 @@
     <ClInclude Include="DayTwo\DayTwo.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="InputFiles\DayEight_NeighbouringTrees.txt" />
     <Text Include="InputFiles\DayFive_SupplyStacks.txt" />
     <Text Include="InputFiles\DayFour_pairedCleaningIDs.txt" />
     <Text Include="InputFiles\dayOne_elfCalories.txt" />

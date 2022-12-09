@@ -5,6 +5,7 @@
 #include "DayFive/DayFive.h"
 #include "DaySix/DaySix.h"
 #include "DaySeven/DaySeven.h"
+#include "DayEight/DayEight.h"
 
 #include <iostream>
 
@@ -71,6 +72,11 @@ int main()
             std::cout << "The total size of all files under the size of 100000 is: " << daySeven::GetCombinedSizeOfSmallFiles(100000) << std::endl;
 
             std::cout << "The size of the smallest directory to delete to open up enough filespace is: " << daySeven::GetSizeOfSmallestDirectoryForUpdate(70000000, 30000000) << std::endl;
+            break;
+        case 8:
+            std::cout << "The amount of visible trees in the forest is: " << dayEight::GetNumOfVisibleTrees() << std::endl;
+
+            std::cout << "The highest scenic score is: " << dayEight::GetHighestScenicScore() << std::endl;
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;

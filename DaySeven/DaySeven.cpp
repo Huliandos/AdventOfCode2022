@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include <fstream>	//std::ifstream
-#include <typeinfo> //typeid
 
 namespace daySeven {
 	File rootDirectory = File("Root", -1, NULL);
