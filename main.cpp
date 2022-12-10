@@ -6,6 +6,7 @@
 #include "DaySix/DaySix.h"
 #include "DaySeven/DaySeven.h"
 #include "DayEight/DayEight.h"
+#include "DayNine/DayNine.h"
 
 #include <iostream>
 
@@ -77,6 +78,10 @@ int main()
             std::cout << "The amount of visible trees in the forest is: " << dayEight::GetNumOfVisibleTrees() << std::endl;
 
             std::cout << "The highest scenic score is: " << dayEight::GetHighestScenicScore() << std::endl;
+        case 9:
+            std::cout << "The number of positions the tail visited with 2 knots is: " << dayNine::GetNumOfPositionsVisited(2) << std::endl;
+
+            std::cout << "The number of positions the tail visited 10 knots is: " << dayNine::GetNumOfPositionsVisited(10) << std::endl;
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;

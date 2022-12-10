@@ -143,6 +143,7 @@
     <ClCompile Include="DayEight\DayEight.cpp" />
     <ClCompile Include="DayFive\DayFive.cpp" />
     <ClCompile Include="DayFour\DayFour.cpp" />
+    <ClCompile Include="DayNine\DayNine.cpp" />
     <ClCompile Include="DayOne\DayOne.cpp" />
     <ClCompile Include="DaySeven\DaySeven.cpp" />
     <ClCompile Include="DaySix\DaySix.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="DayEight\DayEight.h" />
     <ClInclude Include="DayFive\DayFive.h" />
     <ClInclude Include="DayFour\DayFour.h" />
+    <ClInclude Include="DayNine\DayNine.h" />
     <ClInclude Include="DayOne\DayOne.h" />
     <ClInclude Include="DaySeven\DaySeven.h" />
     <ClInclude Include="DaySix\DaySix.h" />
@@ -164,11 +166,13 @@
     <Text Include="InputFiles\DayEight_NeighbouringTrees.txt" />
     <Text Include="InputFiles\DayFive_SupplyStacks.txt" />
     <Text Include="InputFiles\DayFour_pairedCleaningIDs.txt" />
+    <Text Include="InputFiles\DayNine_RopeMovements.txt" />
     <Text Include="InputFiles\dayOne_elfCalories.txt" />
     <Text Include="InputFiles\DaySeven_Filesystem.txt" />
     <Text Include="InputFiles\DaySix_CommunicationDatastreamBuffer.txt" />
     <Text Include="InputFiles\DayThree_itemsInRucksack.txt" />
     <Text Include="InputFiles\DayTwo_RockPaperSicorsInput.txt" />
+    <Text Include="InputFiles\_Test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -45,6 +45,9 @@
     <ClCompile Include="DayEight\DayEight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DayNine\DayNine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DayTwo\DayTwo.h">
@@ -71,6 +74,9 @@
     <ClInclude Include="DayEight\DayEight.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DayNine\DayNine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="InputFiles\dayOne_elfCalories.txt">
@@ -95,6 +101,12 @@
       <Filter>InputFiles</Filter>
     </Text>
     <Text Include="InputFiles\DayEight_NeighbouringTrees.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\DayNine_RopeMovements.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\_Test.txt">
       <Filter>InputFiles</Filter>
     </Text>
   </ItemGroup>
