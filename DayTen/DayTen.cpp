@@ -8,7 +8,7 @@ namespace dayTen {
 	std::string inputFile = "./InputFiles/DayTen_CPUInstructions.txt";
 	//std::string inputFile = "./InputFiles/_Test.txt";
 
-	int GetSignalStrength() {
+	int GetTotalSignalStrength() {
 		std::ifstream movementInstructions(inputFile, std::ifstream::in);
 
 		int totalSignalStrength = 0;

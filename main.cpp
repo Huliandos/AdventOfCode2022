@@ -8,6 +8,7 @@
 #include "DayEight/DayEight.h"
 #include "DayNine/DayNine.h"
 #include "DayTen/DayTen.h"
+#include "DayEleven/DayEleven.h"
 
 #include <iostream>
 
@@ -85,9 +86,14 @@ int main()
             std::cout << "The number of positions the tail visited 10 knots is: " << dayNine::GetNumOfPositionsVisited(10) << std::endl;
             break;
         case 10:
-            std::cout << "The total signal strnegth at 20, 60, 100, 140, 180 and 220 cycles is: " << dayTen::GetSignalStrength() << std::endl;
+            std::cout << "The total signal strnegth at 20, 60, 100, 140, 180 and 220 cycles is: " << dayTen::GetTotalSignalStrength() << std::endl;
 
             std::cout << "After executing all CPU commands the screen looks like this: " << std::endl << dayTen::GenerateSprite() << std::endl;
+            break;
+        case 11:
+            std::cout << "The multiplied monkey business for heighest to numbers of inspected items of monkeys after 20 rounds is: " << dayEleven::GetMultipliedMonkeyBusiness(true) << std::endl;
+
+            std::cout << "The multiplied monkey business for heighest to numbers of inspected items of monkeys aftetr 10000 rounds without dividing by 3 is: " << dayEleven::GetMultipliedMonkeyBusiness(false) << std::endl;
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;
