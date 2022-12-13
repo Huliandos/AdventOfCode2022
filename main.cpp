@@ -9,8 +9,10 @@
 #include "DayNine/DayNine.h"
 #include "DayTen/DayTen.h"
 #include "DayEleven/DayEleven.h"
+#include "DayTwelve/DayTwelve.h"
 
 #include <iostream>
+#include <stdexcept>
 
 //Tasks can be found under https://adventofcode.com/
 int main()
@@ -94,6 +96,16 @@ int main()
             std::cout << "The multiplied monkey business for heighest to numbers of inspected items of monkeys after 20 rounds is: " << dayEleven::GetMultipliedMonkeyBusiness(true) << std::endl;
 
             std::cout << "The multiplied monkey business for heighest to numbers of inspected items of monkeys aftetr 10000 rounds without dividing by 3 is: " << dayEleven::GetMultipliedMonkeyBusiness(false) << std::endl;
+            break;
+        case 12:
+            try {
+                std::cout << "The min num of tiles that have to be traversed from S to E to climb the hill are: " << dayTwelve::GetMinNumOfNodesToVisit(true) << std::endl;
+
+                std::cout << "The min num of tiles that have to be traversed from any a to E to climb the hill are: " << dayTwelve::GetMinNumOfNodesToVisit(false) << std::endl;
+            }
+            catch (std::domain_error e) {
+                std::cout << e.what() << std::endl;
+            }
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;
