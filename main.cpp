@@ -10,6 +10,8 @@
 #include "DayTen/DayTen.h"
 #include "DayEleven/DayEleven.h"
 #include "DayTwelve/DayTwelve.h"
+#include "DayThirteen(Uncomplete)/DayThirteen.h"
+#include "DayFourteen/DayFourteen.h"
 
 #include <iostream>
 #include <stdexcept>
@@ -106,6 +108,14 @@ int main()
             catch (std::domain_error e) {
                 std::cout << e.what() << std::endl;
             }
+            break;
+        //case 13:
+            //std::cout << "The sum of the indices in the right order are: " << dayThirteen::GetSumOfIndicesInRightOrder() << std::endl;
+            break;
+        case 14:
+            std::cout << "The number of units of sand coming to rest before they start spilling into the abyss is: " << dayFourteen::GetUnitsOfSandBeforeOverflow(true) << std::endl;
+
+            std::cout << "The number of units of sand coming to rest before the hole clogs itself is: " << dayFourteen::GetUnitsOfSandBeforeOverflow(false) << std::endl;
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;

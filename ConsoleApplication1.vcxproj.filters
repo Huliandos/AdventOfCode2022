@@ -57,6 +57,12 @@
     <ClCompile Include="DayTwelve\DayTwelve.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DayFourteen\DayFourteen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DayThirteen(Uncomplete)\DayThirteen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DayTwo\DayTwo.h">
@@ -93,6 +99,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DayTwelve\DayTwelve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DayFourteen\DayFourteen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DayThirteen(Uncomplete)\DayThirteen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -134,6 +146,12 @@
       <Filter>InputFiles</Filter>
     </Text>
     <Text Include="InputFiles\DayTwelve_HillMap.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\DayThirteen_DistressSignal.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\DayFourteen_Cavesystem.txt">
       <Filter>InputFiles</Filter>
     </Text>
   </ItemGroup>
