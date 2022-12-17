@@ -18,156 +18,168 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayTwo\DayTwo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayOne\DayOne.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayThree\DayThree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayFour\DayFour.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayFive\DayFive.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DaySix\DaySix.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DaySeven\DaySeven.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayEight\DayEight.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayNine\DayNine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayTen\DayTen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayEleven\DayEleven.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayTwelve\DayTwelve.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayFourteen\DayFourteen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayThirteen(Uncomplete)\DayThirteen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayFifteen\DayFifteen%28FirstAttempt%29.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DayFifteen\DayFifteen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DayTwo\DayTwo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayOne\DayOne.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayThree\DayThree.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayFour\DayFour.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayFive\DayFive.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DaySix\DaySix.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DaySeven\DaySeven.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayEight\DayEight.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayNine\DayNine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayTen\DayTen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayEleven\DayEleven.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayTwelve\DayTwelve.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayFourteen\DayFourteen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayThirteen(Uncomplete)\DayThirteen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayFifteen\DayFifteen%28FirstAttempt%29.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DayFifteen\DayFifteen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="InputFiles\dayOne_elfCalories.txt">
+    <Text Include="InputFiles\day1_elfCalories.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayTwo_RockPaperSicorsInput.txt">
+    <Text Include="InputFiles\Day2_RockPaperSicorsInput.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayThree_itemsInRucksack.txt">
+    <Text Include="InputFiles\Day3_itemsInRucksack.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayFour_pairedCleaningIDs.txt">
+    <Text Include="InputFiles\Day4_pairedCleaningIDs.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayFive_SupplyStacks.txt">
+    <Text Include="InputFiles\Day5_SupplyStacks.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DaySix_CommunicationDatastreamBuffer.txt">
+    <Text Include="InputFiles\Day6_CommunicationDatastreamBuffer.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DaySeven_Filesystem.txt">
+    <Text Include="InputFiles\Day7_Filesystem.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayEight_NeighbouringTrees.txt">
+    <Text Include="InputFiles\Day8_NeighbouringTrees.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayNine_RopeMovements.txt">
+    <Text Include="InputFiles\Day9_RopeMovements.txt">
       <Filter>InputFiles</Filter>
     </Text>
     <Text Include="InputFiles\_Test.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayTen_CPUInstructions.txt">
+    <Text Include="InputFiles\Day10_CPUInstructions.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayEleven_Monkeys.txt">
+    <Text Include="InputFiles\Day11_Monkeys.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayTwelve_HillMap.txt">
+    <Text Include="InputFiles\Day12_HillMap.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayThirteen_DistressSignal.txt">
+    <Text Include="InputFiles\Day13_DistressSignal.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayFourteen_Cavesystem.txt">
+    <Text Include="InputFiles\Day14_Cavesystem.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\DayFifteen_CaveBeacons.txt">
+    <Text Include="InputFiles\Day15_CaveBeacons.txt">
       <Filter>InputFiles</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Day1\Day1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day2\Day2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day3\Day3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day4\Day4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day5\Day5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day6\Day6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day7\Day7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day8\Day8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day9\Day9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day10\Day10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day11\Day11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day12\Day12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day13(ToDo)\Day13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day14\Day14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day15\Day15(FirstAttempt).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day15\Day15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day16(ToDo)\Day16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day17(ToDo)\Day17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Day1\Day1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day2\Day2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day3\Day3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day4\Day4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day5\Day5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day6\Day6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day7\Day7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day8\Day8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day9\Day9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day10\Day10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day11\Day11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day12\Day12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day13(ToDo)\Day13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day14\Day14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day15\Day15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day15\Day15(FirstAttempt).h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day16(ToDo)\Day16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day17(ToDo)\Day17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

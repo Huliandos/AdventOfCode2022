@@ -140,59 +140,63 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DayEight\DayEight.cpp" />
-    <ClCompile Include="DayEleven\DayEleven.cpp" />
-    <ClCompile Include="DayFifteen\DayFifteen%28FirstAttempt%29.cpp" />
-    <ClCompile Include="DayFifteen\DayFifteen.cpp" />
-    <ClCompile Include="DayFive\DayFive.cpp" />
-    <ClCompile Include="DayFourteen\DayFourteen.cpp" />
-    <ClCompile Include="DayFour\DayFour.cpp" />
-    <ClCompile Include="DayNine\DayNine.cpp" />
-    <ClCompile Include="DayOne\DayOne.cpp" />
-    <ClCompile Include="DaySeven\DaySeven.cpp" />
-    <ClCompile Include="DaySix\DaySix.cpp" />
-    <ClCompile Include="DayTen\DayTen.cpp" />
-    <ClCompile Include="DayThirteen(Uncomplete)\DayThirteen.cpp" />
-    <ClCompile Include="DayThree\DayThree.cpp" />
-    <ClCompile Include="DayTwelve\DayTwelve.cpp" />
-    <ClCompile Include="DayTwo\DayTwo.cpp" />
+    <Text Include="InputFiles\Day8_NeighbouringTrees.txt" />
+    <Text Include="InputFiles\Day11_Monkeys.txt" />
+    <Text Include="InputFiles\Day15_CaveBeacons.txt" />
+    <Text Include="InputFiles\Day5_SupplyStacks.txt" />
+    <Text Include="InputFiles\Day14_Cavesystem.txt" />
+    <Text Include="InputFiles\Day4_pairedCleaningIDs.txt" />
+    <Text Include="InputFiles\Day9_RopeMovements.txt" />
+    <Text Include="InputFiles\day1_elfCalories.txt" />
+    <Text Include="InputFiles\Day7_Filesystem.txt" />
+    <Text Include="InputFiles\Day6_CommunicationDatastreamBuffer.txt" />
+    <Text Include="InputFiles\Day10_CPUInstructions.txt" />
+    <Text Include="InputFiles\Day13_DistressSignal.txt" />
+    <Text Include="InputFiles\Day3_itemsInRucksack.txt" />
+    <Text Include="InputFiles\Day12_HillMap.txt" />
+    <Text Include="InputFiles\Day2_RockPaperSicorsInput.txt" />
+    <Text Include="InputFiles\_Test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Day10\Day10.cpp" />
+    <ClCompile Include="Day11\Day11.cpp" />
+    <ClCompile Include="Day12\Day12.cpp" />
+    <ClCompile Include="Day13(ToDo)\Day13.cpp" />
+    <ClCompile Include="Day14\Day14.cpp" />
+    <ClCompile Include="Day15\Day15(FirstAttempt).cpp" />
+    <ClCompile Include="Day15\Day15.cpp" />
+    <ClCompile Include="Day16(ToDo)\Day16.cpp" />
+    <ClCompile Include="Day17(ToDo)\Day17.cpp" />
+    <ClCompile Include="Day1\Day1.cpp" />
+    <ClCompile Include="Day2\Day2.cpp" />
+    <ClCompile Include="Day3\Day3.cpp" />
+    <ClCompile Include="Day4\Day4.cpp" />
+    <ClCompile Include="Day5\Day5.cpp" />
+    <ClCompile Include="Day6\Day6.cpp" />
+    <ClCompile Include="Day7\Day7.cpp" />
+    <ClCompile Include="Day8\Day8.cpp" />
+    <ClCompile Include="Day9\Day9.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DayEight\DayEight.h" />
-    <ClInclude Include="DayEleven\DayEleven.h" />
-    <ClInclude Include="DayFifteen\DayFifteen%28FirstAttempt%29.h" />
-    <ClInclude Include="DayFifteen\DayFifteen.h" />
-    <ClInclude Include="DayFive\DayFive.h" />
-    <ClInclude Include="DayFourteen\DayFourteen.h" />
-    <ClInclude Include="DayFour\DayFour.h" />
-    <ClInclude Include="DayNine\DayNine.h" />
-    <ClInclude Include="DayOne\DayOne.h" />
-    <ClInclude Include="DaySeven\DaySeven.h" />
-    <ClInclude Include="DaySix\DaySix.h" />
-    <ClInclude Include="DayTen\DayTen.h" />
-    <ClInclude Include="DayThirteen(Uncomplete)\DayThirteen.h" />
-    <ClInclude Include="DayThree\DayThree.h" />
-    <ClInclude Include="DayTwelve\DayTwelve.h" />
-    <ClInclude Include="DayTwo\DayTwo.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="InputFiles\DayEight_NeighbouringTrees.txt" />
-    <Text Include="InputFiles\DayEleven_Monkeys.txt" />
-    <Text Include="InputFiles\DayFifteen_CaveBeacons.txt" />
-    <Text Include="InputFiles\DayFive_SupplyStacks.txt" />
-    <Text Include="InputFiles\DayFourteen_Cavesystem.txt" />
-    <Text Include="InputFiles\DayFour_pairedCleaningIDs.txt" />
-    <Text Include="InputFiles\DayNine_RopeMovements.txt" />
-    <Text Include="InputFiles\dayOne_elfCalories.txt" />
-    <Text Include="InputFiles\DaySeven_Filesystem.txt" />
-    <Text Include="InputFiles\DaySix_CommunicationDatastreamBuffer.txt" />
-    <Text Include="InputFiles\DayTen_CPUInstructions.txt" />
-    <Text Include="InputFiles\DayThirteen_DistressSignal.txt" />
-    <Text Include="InputFiles\DayThree_itemsInRucksack.txt" />
-    <Text Include="InputFiles\DayTwelve_HillMap.txt" />
-    <Text Include="InputFiles\DayTwo_RockPaperSicorsInput.txt" />
-    <Text Include="InputFiles\_Test.txt" />
+    <ClInclude Include="Day10\Day10.h" />
+    <ClInclude Include="Day11\Day11.h" />
+    <ClInclude Include="Day12\Day12.h" />
+    <ClInclude Include="Day13(ToDo)\Day13.h" />
+    <ClInclude Include="Day14\Day14.h" />
+    <ClInclude Include="Day15\Day15(FirstAttempt).h" />
+    <ClInclude Include="Day15\Day15.h" />
+    <ClInclude Include="Day16(ToDo)\Day16.h" />
+    <ClInclude Include="Day17(ToDo)\Day17.h" />
+    <ClInclude Include="Day1\Day1.h" />
+    <ClInclude Include="Day2\Day2.h" />
+    <ClInclude Include="Day3\Day3.h" />
+    <ClInclude Include="Day4\Day4.h" />
+    <ClInclude Include="Day5\Day5.h" />
+    <ClInclude Include="Day6\Day6.h" />
+    <ClInclude Include="Day7\Day7.h" />
+    <ClInclude Include="Day8\Day8.h" />
+    <ClInclude Include="Day9\Day9.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
