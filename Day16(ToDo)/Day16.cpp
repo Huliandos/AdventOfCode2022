@@ -17,7 +17,7 @@
 
 namespace daySixteen{
 	int ReadInputData() {
-		std::ifstream distressSignal("./InputFiles/Day15_CaveBeacons.txt", std::ifstream::in);
+		std::ifstream distressSignal("./InputFiles/Day16_Valves.txt", std::ifstream::in);
 		//std::ifstream distressSignal("./InputFiles/_Test.txt", std::ifstream::in);
 
 		//read out data and figure out how big the array has to be to display all

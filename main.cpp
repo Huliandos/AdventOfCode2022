@@ -126,6 +126,9 @@ int main()
 
             std::cout << "Get input frequency of only open space: " << dayFifteen::GetInputFrequencyOfFreeSpace() << std::endl;
             break;
+        case 17:
+            std::cout << "Height of tower after stacking: " << daySeventeen::GetHeightOfTowerAfterStacking() << std::endl;
+            break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;
             break;

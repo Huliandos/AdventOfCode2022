@@ -14,7 +14,7 @@ namespace dayOne {
 	std::vector<int> GetNMostCalories(int n) {
 
 		//open file
-		std::ifstream elfCaloriesTxt("./InputFiles/day1_elfCalories.txt", std::ifstream::in);
+		std::ifstream elfCaloriesTxt("./InputFiles/Day1_elfCalories.txt", std::ifstream::in);
 
 		std::vector<int> elfCalories;
 		//read out data

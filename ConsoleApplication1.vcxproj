@@ -140,21 +140,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="InputFiles\Day8_NeighbouringTrees.txt" />
-    <Text Include="InputFiles\Day11_Monkeys.txt" />
-    <Text Include="InputFiles\Day15_CaveBeacons.txt" />
-    <Text Include="InputFiles\Day5_SupplyStacks.txt" />
-    <Text Include="InputFiles\Day14_Cavesystem.txt" />
-    <Text Include="InputFiles\Day4_pairedCleaningIDs.txt" />
-    <Text Include="InputFiles\Day9_RopeMovements.txt" />
-    <Text Include="InputFiles\day1_elfCalories.txt" />
-    <Text Include="InputFiles\Day7_Filesystem.txt" />
-    <Text Include="InputFiles\Day6_CommunicationDatastreamBuffer.txt" />
     <Text Include="InputFiles\Day10_CPUInstructions.txt" />
-    <Text Include="InputFiles\Day13_DistressSignal.txt" />
-    <Text Include="InputFiles\Day3_itemsInRucksack.txt" />
+    <Text Include="InputFiles\Day11_Monkeys.txt" />
     <Text Include="InputFiles\Day12_HillMap.txt" />
+    <Text Include="InputFiles\Day13_DistressSignal.txt" />
+    <Text Include="InputFiles\Day14_Cavesystem.txt" />
+    <Text Include="InputFiles\Day15_CaveBeacons.txt" />
+    <Text Include="InputFiles\Day16_Valves.txt" />
+    <Text Include="InputFiles\Day17_Airflow.txt" />
+    <Text Include="InputFiles\Day1_elfCalories.txt" />
     <Text Include="InputFiles\Day2_RockPaperSicorsInput.txt" />
+    <Text Include="InputFiles\Day3_itemsInRucksack.txt" />
+    <Text Include="InputFiles\Day4_pairedCleaningIDs.txt" />
+    <Text Include="InputFiles\Day5_SupplyStacks.txt" />
+    <Text Include="InputFiles\Day6_CommunicationDatastreamBuffer.txt" />
+    <Text Include="InputFiles\Day7_Filesystem.txt" />
+    <Text Include="InputFiles\Day8_NeighbouringTrees.txt" />
+    <Text Include="InputFiles\Day9_RopeMovements.txt" />
     <Text Include="InputFiles\_Test.txt" />
   </ItemGroup>
   <ItemGroup>

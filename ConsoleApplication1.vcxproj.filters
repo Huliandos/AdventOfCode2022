@@ -18,7 +18,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="InputFiles\day1_elfCalories.txt">
+    <Text Include="InputFiles\_Test.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\Day1_elfCalories.txt">
       <Filter>InputFiles</Filter>
     </Text>
     <Text Include="InputFiles\Day2_RockPaperSicorsInput.txt">
@@ -45,9 +48,6 @@
     <Text Include="InputFiles\Day9_RopeMovements.txt">
       <Filter>InputFiles</Filter>
     </Text>
-    <Text Include="InputFiles\_Test.txt">
-      <Filter>InputFiles</Filter>
-    </Text>
     <Text Include="InputFiles\Day10_CPUInstructions.txt">
       <Filter>InputFiles</Filter>
     </Text>
@@ -64,6 +64,12 @@
       <Filter>InputFiles</Filter>
     </Text>
     <Text Include="InputFiles\Day15_CaveBeacons.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\Day16_Valves.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="InputFiles\Day17_Airflow.txt">
       <Filter>InputFiles</Filter>
     </Text>
   </ItemGroup>
