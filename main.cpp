@@ -12,6 +12,8 @@
 #include "DayTwelve/DayTwelve.h"
 #include "DayThirteen(Uncomplete)/DayThirteen.h"
 #include "DayFourteen/DayFourteen.h"
+#include "DayFifteen/DayFifteen(FirstAttempt).h"
+#include "DayFifteen/DayFifteen.h"
 
 #include <iostream>
 #include <stdexcept>
@@ -116,6 +118,11 @@ int main()
             std::cout << "The number of units of sand coming to rest before they start spilling into the abyss is: " << dayFourteen::GetUnitsOfSandBeforeOverflow(true) << std::endl;
 
             std::cout << "The number of units of sand coming to rest before the hole clogs itself is: " << dayFourteen::GetUnitsOfSandBeforeOverflow(false) << std::endl;
+            break;
+        case 15:
+            //std::cout << "The number of positions in row 2000000 where the beacon can't be present is: " << dayFifteen::GetNumPositionsWithoutBeacon() << std::endl;
+
+            std::cout << "Get input frequency of only open space: " << dayFifteen::GetInputFrequencyOfFreeSpace() << std::endl;
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;

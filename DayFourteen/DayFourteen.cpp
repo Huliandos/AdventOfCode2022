@@ -3,7 +3,6 @@
 #include <iostream>
 #include <fstream>	//std::ifstream
 #include <string>
-#include <stack>
 #include <vector>
 
 namespace dayFourteen {
@@ -191,11 +190,11 @@ namespace dayFourteen {
 		return false;
 	}
 
-	void printCave(bool* spaceOccupied, int rows, int cols) {
+	void printCave(bool* spaceOccupied, int cols, int rows) {
 		//print cave
-		for (int y = 0; y < cols; y++) {
-			for (int x = 0; x < rows; x++) {
-				if (spaceOccupied[x * cols + y] == true)
+		for (int y = 0; y < rows; y++) {
+			for (int x = 0; x < cols; x++) {
+				if (spaceOccupied[x * rows + y] == true)
 					std::cout << "#";
 				else
 					std::cout << ".";
