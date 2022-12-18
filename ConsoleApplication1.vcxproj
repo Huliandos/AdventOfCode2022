@@ -148,6 +148,7 @@
     <Text Include="InputFiles\Day15_CaveBeacons.txt" />
     <Text Include="InputFiles\Day16_Valves.txt" />
     <Text Include="InputFiles\Day17_Airflow.txt" />
+    <Text Include="InputFiles\Day18_LavaCoordinates.txt" />
     <Text Include="InputFiles\Day1_elfCalories.txt" />
     <Text Include="InputFiles\Day2_RockPaperSicorsInput.txt" />
     <Text Include="InputFiles\Day3_itemsInRucksack.txt" />
@@ -165,10 +166,11 @@
     <ClCompile Include="Day12\Day12.cpp" />
     <ClCompile Include="Day13(ToDo)\Day13.cpp" />
     <ClCompile Include="Day14\Day14.cpp" />
-    <ClCompile Include="Day15\Day15(FirstAttempt).cpp" />
-    <ClCompile Include="Day15\Day15.cpp" />
+    <ClCompile Include="Day15(Part1)\Day15(FirstAttempt).cpp" />
+    <ClCompile Include="Day15(Part1)\Day15.cpp" />
     <ClCompile Include="Day16(ToDo)\Day16.cpp" />
-    <ClCompile Include="Day17(ToDo)\Day17.cpp" />
+    <ClCompile Include="Day17(Part1)\Day17.cpp" />
+    <ClCompile Include="Day18\Day18.cpp" />
     <ClCompile Include="Day1\Day1.cpp" />
     <ClCompile Include="Day2\Day2.cpp" />
     <ClCompile Include="Day3\Day3.cpp" />
@@ -186,10 +188,11 @@
     <ClInclude Include="Day12\Day12.h" />
     <ClInclude Include="Day13(ToDo)\Day13.h" />
     <ClInclude Include="Day14\Day14.h" />
-    <ClInclude Include="Day15\Day15(FirstAttempt).h" />
-    <ClInclude Include="Day15\Day15.h" />
+    <ClInclude Include="Day15(Part1)\Day15(FirstAttempt).h" />
+    <ClInclude Include="Day15(Part1)\Day15.h" />
     <ClInclude Include="Day16(ToDo)\Day16.h" />
-    <ClInclude Include="Day17(ToDo)\Day17.h" />
+    <ClInclude Include="Day17(Part1)\Day17.h" />
+    <ClInclude Include="Day18\Day18.h" />
     <ClInclude Include="Day1\Day1.h" />
     <ClInclude Include="Day2\Day2.h" />
     <ClInclude Include="Day3\Day3.h" />

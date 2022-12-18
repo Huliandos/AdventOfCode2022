@@ -9,11 +9,6 @@
 #include <unordered_set>
 #include <set>
 
-
-/// <summary>
-/// This ended up not working because the array size got too large with my input data. Thus I had to create another solution for this task
-/// </summary>
-
 namespace dayFifteen {
 	int rowToCheckForBeaconCoveredSpaces = 2000000;
 	int maxRowsAndCollsOfCave = 4000000;

@@ -1,7 +1,17 @@
 #pragma once
 
 #include <vector>
+
+//ToDo: Try to use a tree for this task
+
 namespace dayThirteen {
+	struct node {
+		std::vector<int> data;
+		struct node* left;
+		struct node* right;
+	};
+
+	/*
 	template <typename T>
 	struct NestedData {
 		T nestedData;
@@ -23,4 +33,5 @@ namespace dayThirteen {
 	int Compare(std::vector<T>, int);
 
 	int Compare(int, int);
+	*/
 }

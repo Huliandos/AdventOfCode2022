@@ -6,12 +6,14 @@
 #include <array>
 
 /// <summary>
-/// TODO
+/// TODO part 2: What if instead of 2022 rocks 1000000000000 rocks fall.
+/// Idea: Every now and then the rocks form a completely closed of row. Use that and the airflow to find repeating patterns
+/// Once repeating patterns have been found, they can be used to interpolate how high the tower would have to be if 1000000000000 rocks fell
 /// </summary>
 
 namespace daySeventeen {
 	const int cavesize = 7;
-	const int rockToWaitFor = 2022;
+	int rockToWaitFor = 2022;
 	const int spawnHeightOfNextTile = 4;
 
 	Rock::Rock(Rocktype rocktype) {
@@ -191,7 +193,9 @@ namespace daySeventeen {
 		this->positionInWorldSpace = pos;
 	}
 
-	int GetHeightOfTowerAfterStacking() {
+	int GetHeightOfTowerAfterStacking(int numOfRocksToWaitFor) {
+		rockToWaitFor = numOfRocksToWaitFor;
+
 		std::ifstream airflowOrder("./InputFiles/Day17_Airflow.txt", std::ifstream::in);
 		//std::ifstream airflowOrder("./InputFiles/_Test.txt", std::ifstream::in);
 

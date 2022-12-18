@@ -72,6 +72,9 @@
     <Text Include="InputFiles\Day17_Airflow.txt">
       <Filter>InputFiles</Filter>
     </Text>
+    <Text Include="InputFiles\Day18_LavaCoordinates.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day1\Day1.cpp">
@@ -119,16 +122,19 @@
     <ClCompile Include="Day14\Day14.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day15\Day15(FirstAttempt).cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Day15\Day15.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Day16(ToDo)\Day16.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day17(ToDo)\Day17.cpp">
+    <ClCompile Include="Day15(Part1)\Day15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day15(Part1)\Day15(FirstAttempt).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day17(Part1)\Day17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day18\Day18.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -175,16 +181,19 @@
     <ClInclude Include="Day14\Day14.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Day15\Day15.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day15\Day15(FirstAttempt).h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Day16(ToDo)\Day16.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Day17(ToDo)\Day17.h">
+    <ClInclude Include="Day15(Part1)\Day15(FirstAttempt).h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day15(Part1)\Day15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day17(Part1)\Day17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day18\Day18.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

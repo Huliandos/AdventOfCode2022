@@ -12,10 +12,11 @@
 #include "Day12/Day12.h"
 #include "Day13(ToDo)/Day13.h"
 #include "Day14/Day14.h"
-#include "Day15/Day15(FirstAttempt).h"
-#include "Day15/Day15.h"
+#include "Day15(Part1)/Day15(FirstAttempt).h"
+#include "Day15(Part1)/Day15.h"
 #include "Day16(ToDo)/Day16.h"
-#include "Day17(ToDo)/Day17.h"
+#include "Day17(Part1)/Day17.h"
+#include "Day18/Day18.h"
 
 #include <iostream>
 #include <stdexcept>
@@ -127,7 +128,14 @@ int main()
             std::cout << "Get input frequency of only open space: " << dayFifteen::GetInputFrequencyOfFreeSpace() << std::endl;
             break;
         case 17:
-            std::cout << "Height of tower after stacking: " << daySeventeen::GetHeightOfTowerAfterStacking() << std::endl;
+            std::cout << "Height of the tower after stacking 2022 rocks: " << daySeventeen::GetHeightOfTowerAfterStacking(2022) << std::endl;
+
+            //std::cout << "Height of the tower after stacking 1000000000000 rocks: " << daySeventeen::GetHeightOfTowerAfterStacking(1000000000000) << std::endl;
+            break;
+        case 18:
+            std::cout << "Surface area of lava drop is: " << dayEighteen::GetSurfraceAreaOfLavaDrop() << std::endl;
+
+            std::cout << "Surface area just on the exterior of the lava drop is: " << dayEighteen::GetSurfaceAreaOfLeaveDropExterior() << std::endl;
             break;
         default:
             std::cout << "The day you're looking for has either not been implemented yet, or doesn't exist in the advent of coding " << std::endl;

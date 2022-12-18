@@ -26,6 +26,6 @@ namespace daySeventeen {
 		void SetPosition(std::pair<int, int>);
 	};
 
-	int GetHeightOfTowerAfterStacking();
+	int GetHeightOfTowerAfterStacking(int);
 	void DebugCave(std::vector<std::vector<bool>>&);
 }

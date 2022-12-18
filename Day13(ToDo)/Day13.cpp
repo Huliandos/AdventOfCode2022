@@ -6,16 +6,12 @@
 #include <stack>
 
 namespace dayThirteen {
+
+
+	/*
 	int GetSumOfIndicesInRightOrder() {
 		//std::ifstream distressSignal("./InputFiles/Day13_DistressSignal.txt", std::ifstream::in);
 		std::ifstream distressSignal("./InputFiles/_Test.txt", std::ifstream::in);
-
-		/*
-		std::vector<int> testLeft{ 1,1,3,1,1 };
-		std::vector<int> testRight{ 1,1,5,1,1 };
-
-		std::cout << "test compare resolves to: " << Compare(testLeft, testRight) << std::endl;
-		*/
 
 		NestedData<std::vector<int>> test { std::vector<int>{0} };
 
@@ -127,4 +123,5 @@ namespace dayThirteen {
 			return 0;
 		return 1;
 	}
+	*/
 }
